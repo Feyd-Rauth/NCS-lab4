@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "lab3"
+version = "0.1.0"
+description = ""
+authors = ["Dmitry Chermnykh <76gh6rvso@relay.firefox.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Flask = "^2.1.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

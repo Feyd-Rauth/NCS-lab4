@@ -1,0 +1,18 @@
+version: '3.7'
+
+services:
+  vuln:
+    build:
+      context: .
+      args:
+        - FOLDER=vuln
+    ports:
+      - 5000:5000
+
+  patched:
+    build:
+      context: .
+      args:
+        - FOLDER=patched
+    ports:
+      - 5001:5000
