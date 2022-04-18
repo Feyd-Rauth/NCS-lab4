@@ -59,6 +59,13 @@ Add todo item:
     <button>Submit</button>
 </form>
 </p>
+<p>
+Check service:
+<form action="/ping" method="GET">
+    <input type=text name=host></input>
+    <button>Submit</button>
+</form>
+</p>
 """
 
     resp += "</body>"
